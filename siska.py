@@ -1,2 +1,2 @@
 print('hello bb')
-1
+print('sosiska')
