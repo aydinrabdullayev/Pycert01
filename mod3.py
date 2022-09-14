@@ -389,8 +389,11 @@
 #     print("You haven't entered any number.")
 
 exit_word = "chupacabra"
-word = input()
+word = "null"
+
+print('guess the word')
 
 while exit_word != word:
     word=input()
+    print('try again')
 print("You've successfully left the loop.")
