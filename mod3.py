@@ -387,13 +387,48 @@
 #     print("The largest number is", largest_number)
 # else:
 #     print("You haven't entered any number.")
+#
+# exit_word = "chupacabra"
+# word = "null"
+#
+# print('guess the word')
+#
+# while True :
+#     word=input()
+#     if word==exit_word:
+#         print('Good Job')
+#         break
+#     else: print('try again')
+# print("You've successfully left the loop.")
+#
+# # Prompt the user to enter a word
+# user_word = input()
+# # and assign it to the user_word variable.
+# user_word = user_word.upper()
+# for letter in user_word:
+#     # Complete the body of the for loop.
+#     if letter == 'A' or letter == 'O' or letter == 'U' or letter == 'E' or letter == 'I':
+#         continue
+#     else: print(letter)
+#
+#
+blocks = int(input("Enter the number of blocks: "))
 
-exit_word = "chupacabra"
-word = "null"
+#
+# Write your code here.
+#
 
-print('guess the word')
+height = 0
+width = 1
+while blocks >= width:
+    blocks = blocks - width
+    width += 1
+    height += 1
+print("The height of the pyramid:", height)
 
-while exit_word != word:
-    word=input()
-    print('try again')
-print("You've successfully left the loop.")
+
+
+
+
+
+
